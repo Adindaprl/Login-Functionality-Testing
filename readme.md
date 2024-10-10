@@ -1,25 +1,28 @@
-## Objective:
-Your task is to create and execute test cases for testing the login functionality of a web application using Cypress.
+Preparation before starting testing 
+https://github.com/Adindaprl/Login-Functionality-Testing.git
+1. Clone the project, make sure to save in the correct directory.
+2. Make sure node js and npm are installed, do this by commands "node -v" and "npm -v". You can try by CMD or by terminal
+3. Npm install and run
+4. Open http://localhost:3000 and you will see bellow login page
+   
+Set cypress 
 
-## Instructions:
-1. Download and install Node JS from [here](https://nodejs.org).
-2. Clone / download the this GitHub repository
-3. Run `npm install` and start the node server using `node index.js`.
-4. Open http://localhost:3000 to access the login page.
+1. You can do npm install cypress --save-dev or just npm install cypress
+2. Open the cypress, if you got an error run Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass and run back  the cypress.
+3. Choose e2e testing
+4. Choose a browser
+5. Create files inside cypress/e2e/1-getting-started/login.cy.js
+Create code that converted into e2e cypress form with some tasks that will be executed by cypress.
 
-   The correct login credentials are:
-   - Username: admin
-   - Password: 123456
-
-5. Set up Cypress to run tests against the provided login page.
-6. Create test cases to validate the login functionality based on the following scenarios:
+Create test cases to validate the login functionality based on the following scenarios:
    - Positive test case: Should login successfully with valid credentials.
    - Negative test case: Should display error message when login with invalid credentials.
    - Boundary test case: Should display error message when login with empty credentials.
-7. Write clear and concise test scripts using Cypress' syntax.
-8. Execute the test cases and ensure they pass or fail as expected.
 
-## Submission:
-Please submit your Cypress test scripts along with the test report to your GitHub/GitLab repository. Ensure that your submission includes clear instructions on how to run the tests.
+  The correct login credentials are:
+   - Username: admin
+   - Password: 123456
 
-**Note:** You are encouraged to explore additional test scenarios beyond the ones listed above to demonstrate your testing skills.
+6. Go back to Cypress Chrome and select the file you created.
+7. Cypress automates testing your code, if you get an error, fix it until the Specs iis completely correct.
+
